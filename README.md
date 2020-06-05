@@ -44,3 +44,11 @@ reservation1.jsp
 		                    </div>
 		                </c:when>
                     </c:choose>
+
+형님 실수했습니다. 이거 수정해주세용
+<div id="bg-slider" class="owl-carousel owl-theme">
+ 
+                    <div class="item"><img src="/tp_hotel_booking/assets/img/slide1/hotel-001.jpg" alt="HotelMain1"></div>
+                    <div class="item"><img src="/tp_hotel_booking/assets/img/slide1/hotel-002.jpg" alt="HotelMain2"></div>
+
+                </div>
