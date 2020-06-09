@@ -44,7 +44,6 @@ reservation1.jsp
 		                    </div>
 		                </c:when>
                     </c:choose>
-
 형님 실수했습니다. 이거 수정해주세용
 <div id="bg-slider" class="owl-carousel owl-theme">
  
@@ -52,3 +51,22 @@ reservation1.jsp
                     <div class="item"><img src="/tp_hotel_booking/assets/img/slide1/hotel-002.jpg" alt="HotelMain2"></div>
 
                 </div>
+
+SELECT * FROM (SELECT ROWNUM RNUM, D_NO2, D_U_NAME, D_AVAILABLE, D_DATE, D_TITLE, D_CONTENT FROM (SELECT * FROM DASHBOARD where d_no1=0 ORDER BY D_DATE DESC, D_NO2 ASC));
+
+insert into dashboard values(0, 1, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents', sysdate);
+insert into dashboard values(0, 2, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents2', sysdate);
+insert into dashboard values(0, 3, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 4, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 5, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 6, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 7, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 8, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 9, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 10, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 11, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 12, 1, '3team200th@gmail.com', 1, 1, 1, 1, 0, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 13, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+insert into dashboard values(0, 14, 1, '3team200th@gmail.com', 1, 1, 1, 1, 1, 1, '', 'contents3', sysdate);
+
+commit;
